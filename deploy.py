@@ -9,7 +9,7 @@ df_day = prepare_data_day(df).to_frame()
 forecast = make_forecast(df_day)
 prev_50 = get_last_n_days_data(df_day, forecast=forecast)
 
-st.title("Technological University of the Shannon: Midlands Midwest")
+st.title("YABA COLLEGE OF TECHNOLOGY: Final Year Project")
 
 bar = st.sidebar
 option = bar.selectbox(
